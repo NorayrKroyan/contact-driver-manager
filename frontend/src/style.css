@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* compact vue-select styling */
+.v-select { width: 100%; }
+.v-select .vs__dropdown-toggle {
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    padding: 0.375rem 0.5rem;
+    min-height: 38px;
+    font-size: 0.875rem;
+}
+.v-select .vs__dropdown-menu {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+}
+
+/* aligned inline label rows (your modal "Label: Field" look) */
+.cd-row { display: grid; align-items: center; gap: 0.5rem; grid-template-columns: 120px 1fr; }
+.cd-label { font-size: 0.875rem; color: #374151; white-space: nowrap; }
+.cd-field { width: 100%; border: 1px solid #d1d5db; border-radius: 0.5rem; padding: 0.5rem 0.75rem; font-size: 0.875rem; }
